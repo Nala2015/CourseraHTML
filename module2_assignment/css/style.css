@@ -6,7 +6,7 @@ div > div {
     border: 1px black solid;
     padding: 15px;
     background-color: #A8A09F;
-    font-style: Helvetica;
+    font-style: Helvetica sans-serif;
     padding-top:35px;
     position: relative;
     
@@ -14,7 +14,7 @@ div > div {
 
 
 .first {
-    font-size: 20px;
+    font-size: 125%;
     background-color: #B8584C;
     position:absolute;
     padding: 3px;
@@ -23,14 +23,14 @@ div > div {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0px;
-    border: black solid 3px;
+    border: black solid 1px;
     border-top: 0px;
     border-right: 0px;
 }
 
 .second {
     color: white;
-    font-size: 20px;
+    font-size: 125%;
     background-color: #B01A08;
     position:absolute;
     padding: 3px;
@@ -39,14 +39,14 @@ div > div {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0px;
-    border: 3px black solid;
+    border: 1px black solid;
     border-top: 0px;
     border-right: 0px;
 
 }
 
 .third {
-    font-size: 20px;
+    font-size: 125%;
     background-color: #B7C11E;
     position:absolute;
     padding: 3px;
@@ -55,7 +55,7 @@ div > div {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0px;
-    border: black solid 3px;
+    border: black solid 1px;
     border-top: 0px;
     border-right: 0px;
 
@@ -66,7 +66,7 @@ div > div {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
         float: left;
         margin: 1%;
-        border: 3px black solid;
+        border: 1px black solid;
     }
     .col-lg-1 {
         width: 6.33%;
@@ -111,7 +111,7 @@ div > div {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
         float: left;
         margin: 1%;
-        border: 3px black solid;
+        border: 1px black solid;
     }
     .col-md-1 {
         width: 6.33%;
@@ -157,7 +157,7 @@ div > div {
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
         float: left;
         margin: 1%;
-        border: 3px black solid;
+        border: 1px black solid;
         
     }
     .col-sm-1 {
@@ -200,4 +200,5 @@ div > div {
 
 h1 {
     text-align: center;
+    font-size: 175%;
 }
